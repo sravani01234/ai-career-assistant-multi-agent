@@ -1,36 +1,14 @@
-
 # AI Career Assistant – Multi-Agent System
 
-A multi-agent AI system that helps users improve their careers by analyzing resumes,
-matching jobs, identifying skill gaps, and generating interview preparation questions.
+This project implements a multi-agent AI system that helps users:
 
-## Features
-- Resume Analyzer
-- Job Matching System
-- Skill Gap Detection
-- Interview Question Generator
-- Multi-Agent Architecture
+- Analyze resumes
+- Match jobs
+- Detect skill gaps
+- Generate interview questions
 
 ## Tech Stack
-Python, Simple Agent Architecture, NLP-style prompt simulation
+Python, AI Agents, NLP concepts
 
 ## Architecture
-
-User Query
-   ↓
-Supervisor Agent
-   ↓
---------------------------------
-Resume Agent
-Job Match Agent
-Skill Gap Agent
-Interview Agent
---------------------------------
-   ↓
-Final Response
-
-## Run the project
-
-```bash
-python main.py
-```
+User → Supervisor Agent → Specialized Agents
