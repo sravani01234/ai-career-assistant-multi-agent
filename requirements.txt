@@ -1,0 +1,2 @@
+
+# Basic requirements (extend if using real LLM APIs)
